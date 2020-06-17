@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'News_Example' do
+  pod 'News', :path => '../'
+
+  target 'News_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
