@@ -1,0 +1,22 @@
+{
+  "name": "News",
+  "version": "0.1.0",
+  "summary": "A short description of News.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/3397838812@qq.com/News",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "3397838812@qq.com": "3397838812@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/3397838812@qq.com/News.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "News/Classes/**/*"
+}

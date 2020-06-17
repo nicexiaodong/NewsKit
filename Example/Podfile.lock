@@ -1,0 +1,16 @@
+PODS:
+  - News (0.1.0)
+
+DEPENDENCIES:
+  - News (from `../`)
+
+EXTERNAL SOURCES:
+  News:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  News: f18a972151d464e737db27799a825467bfb92d0e
+
+PODFILE CHECKSUM: 6d6c90ab05076c973cc6f545f862a05a3f335830
+
+COCOAPODS: 1.8.4
