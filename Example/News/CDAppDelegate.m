@@ -7,12 +7,21 @@
 //
 
 #import "CDAppDelegate.h"
-
+#import "CDViewController.h"
 @implementation CDAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    [[UINavigationBar appearance]setBarTintColor:[UIColor blueColor]];
+    [[UINavigationBar appearance]setBarStyle:UIBarStyleBlack];
+    CDViewController *vc = [[CDViewController alloc]init];
+    UINavigationController *navVC = [[UINavigationController alloc]initWithRootViewController:vc];
+    self.window.rootViewController = navVC;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
