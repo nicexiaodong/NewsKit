@@ -1,9 +1,9 @@
 {
   "name": "News",
   "version": "0.1.0",
-  "summary": "A short description of News.",
+  "summary": "仿网易新闻上导航栏",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/3397838812@qq.com/News",
+  "homepage": "https://github.com/nicexiaodong/NewsKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "3397838812@qq.com": "3397838812@qq.com"
   },
   "source": {
-    "git": "https://github.com/3397838812@qq.com/News.git",
+    "git": "https://github.com/nicexiaodong/NewsKit.git",
     "tag": "0.1.0"
   },
   "platforms": {

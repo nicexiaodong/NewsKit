@@ -1,16 +1,23 @@
 PODS:
+  - Masonry (1.1.0)
   - News (0.1.0)
 
 DEPENDENCIES:
+  - Masonry
   - News (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
 
 EXTERNAL SOURCES:
   News:
     :path: "../"
 
 SPEC CHECKSUMS:
-  News: f18a972151d464e737db27799a825467bfb92d0e
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  News: dd98f4e560ebb2c8b58a90510e460ea92c78b57d
 
-PODFILE CHECKSUM: 6d6c90ab05076c973cc6f545f862a05a3f335830
+PODFILE CHECKSUM: 0bdfa065669d909eaa208df690ec46c3d954a8e4
 
 COCOAPODS: 1.8.4

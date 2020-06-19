@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		11E64122CB4B980030AEDC57 /* Pods_News_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C347F84B48098FBE33D8E6 /* Pods_News_Tests.framework */; };
 		2B8E3705B58CA8D96AC01C43 /* Pods_News_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC063CF6CF1EF50F253533F /* Pods_News_Example.framework */; };
+		33392B87249CBFDA00DEEDC4 /* CDCarsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 33392B86249CBFDA00DEEDC4 /* CDCarsTableViewCell.m */; };
+		33392B8A249CCF2200DEEDC4 /* CDDropListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 33392B89249CCF2200DEEDC4 /* CDDropListView.m */; };
 		33649EA4249A563800E23A1E /* CDCarsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33649EA3249A563800E23A1E /* CDCarsViewController.m */; };
 		33649EA7249A565200E23A1E /* CDHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33649EA6249A565200E23A1E /* CDHomeViewController.m */; };
 		33649EAA249A566200E23A1E /* CDFoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33649EA9249A566200E23A1E /* CDFoodViewController.m */; };
@@ -42,6 +44,10 @@
 /* Begin PBXFileReference section */
 		1933E1C6D7B71D54C6C77EBF /* Pods-News_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-News_Tests.debug.xcconfig"; path = "Target Support Files/Pods-News_Tests/Pods-News_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		25784AA7B4E095FDADDC110B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		33392B85249CBFDA00DEEDC4 /* CDCarsTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDCarsTableViewCell.h; sourceTree = "<group>"; };
+		33392B86249CBFDA00DEEDC4 /* CDCarsTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDCarsTableViewCell.m; sourceTree = "<group>"; };
+		33392B88249CCF2200DEEDC4 /* CDDropListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDDropListView.h; sourceTree = "<group>"; };
+		33392B89249CCF2200DEEDC4 /* CDDropListView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDDropListView.m; sourceTree = "<group>"; };
 		33649EA2249A563800E23A1E /* CDCarsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDCarsViewController.h; sourceTree = "<group>"; };
 		33649EA3249A563800E23A1E /* CDCarsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDCarsViewController.m; sourceTree = "<group>"; };
 		33649EA5249A565200E23A1E /* CDHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDHomeViewController.h; sourceTree = "<group>"; };
@@ -155,6 +161,10 @@
 				33649EA6249A565200E23A1E /* CDHomeViewController.m */,
 				33649EA8249A566200E23A1E /* CDFoodViewController.h */,
 				33649EA9249A566200E23A1E /* CDFoodViewController.m */,
+				33392B85249CBFDA00DEEDC4 /* CDCarsTableViewCell.h */,
+				33392B86249CBFDA00DEEDC4 /* CDCarsTableViewCell.m */,
+				33392B88249CCF2200DEEDC4 /* CDDropListView.h */,
+				33392B89249CCF2200DEEDC4 /* CDDropListView.m */,
 			);
 			name = "Example for News";
 			path = News;
@@ -361,10 +371,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-News_Example/Pods-News_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/News/News.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/News.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -383,7 +395,9 @@
 				33649EA7249A565200E23A1E /* CDHomeViewController.m in Sources */,
 				6003F59E195388D20070C39A /* CDAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* CDViewController.m in Sources */,
+				33392B87249CBFDA00DEEDC4 /* CDCarsTableViewCell.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				33392B8A249CCF2200DEEDC4 /* CDDropListView.m in Sources */,
 				33649EAA249A566200E23A1E /* CDFoodViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

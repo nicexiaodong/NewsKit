@@ -28,7 +28,7 @@
     CGFloat navHeight = self.navigationController.navigationBar.bounds.size.height + [[UIApplication sharedApplication] statusBarFrame].size.height;
     
     self.titleScrollView = [[UIScrollView alloc]initWithFrame:CGRectMake(0, navHeight, [UIScreen mainScreen].bounds.size.width, 40)];
-    self.titleScrollView.backgroundColor = [UIColor blueColor];
+    self.titleScrollView.backgroundColor = [UIColor redColor];
     [self.view addSubview:self.titleScrollView];
     
     self.contentScrollView = [[UIScrollView alloc]initWithFrame:CGRectMake(0, navHeight +40, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height -40)];
